@@ -130,13 +130,13 @@ function handleGuess() {
         score += roundPoints[attempts - 1];
         localStorage.setItem('score', score);
         message1.textContent = "Você acertou! Próximo país!";
-        setTimeout(startGame, 4000);
+        setTimeout(startGame, 2500);
     } else if (attempts < maxAttempts) {
         revealHint();
     } else {
         message.textContent = `Você não acertou. O país era ${currentCountry[0]}. Próximo país!`;
         attemptsText.textContent = 0;
-        setTimeout(startGame, 4000);
+        setTimeout(startGame, 2500);
     }
 
     scoreText.textContent = score;
