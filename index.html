@@ -1,1 +1,69 @@
-<h1>oi</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Guesser</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="big-container">
+        <header>
+            <h1>Country Guesser</h1>
+            <div class="info">
+                <p><a href="https://www.instagram.com/1anoifsp?igsh=MXF1ajF5NTQydzc5NA==">Contato</a></p>
+                <p><a href="sobrenos.html">Sobre nós</a></p>
+                <p><a href="#" id="rules">Regras</a></p>
+            </div>
+
+        </header>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2>Bem-vindo ao Jogo!</h2>
+                <p>Teste seus conhecimentos sobre países e divirta-se!</p>
+                <h2 id="Rl">Regras</h2>
+                <p>A quantidade de pontos ganhos funciona da seguinte forma:</p>
+                <ul>
+                    <li>Tentativa 1 +1000 pontos</li>
+                    <li>Tentativa 2 +750 pontos</li>
+                    <li>Tentativa 3 +500 pontos</li>
+                    <li>Tentativa 4 +250 pontos</li>
+                </ul>
+                <p id="Rl">São 10 rodadas, em cada rodada aparecerão dicas ao errar uma tentativa.</p>
+                <p>Se errar além da 4ª tentativa, passará para próxima rodada não recebendo pontos.</p>
+                <p><b>No fim das 10 rodadas, verifique sua Pontuação Final!</b></p>
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="game-area">
+                <div class="hint-area">
+                    <img id="country-format" src="" alt="Formato do país">
+                    <p id="hint-1" class="hint hidden"></p>
+                    <p id="hint-2" class="hint hidden"></p>
+                    <img id="flag" class="hint hidden" src="" alt="Bandeira do país">
+                </div>
+                <div class="input-area">
+                    <input type="text" id="guess-input" placeholder="Tente adivinhar o país...">
+                    <button id="submit-guess">Enviar</button>
+                </div>
+                <p id="message"></p>
+                <p id="message1"></p>
+                <div class="small-container">
+                    <p>Tentativas restantes: <span id="attempts"></span></p>
+                    <p>Pontuação total: <span id="score"></span></p>
+                </div>
+            </div>
+        </div> <!--Container-->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
