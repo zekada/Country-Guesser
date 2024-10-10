@@ -12,7 +12,6 @@ body {
     height: 100vh;
     background: black;
     background-image: url(../img/background.png);
-    /* background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 0)); */
 }
 
 .big-container {
@@ -241,4 +240,119 @@ ul, li {
 #finalPoints {
     font-size: 23px;
     font-weight: 500;
+}
+
+
+
+@media (max-width: 768px) {
+    .big-container {
+        min-width: auto;
+        width: 100%;
+        margin: 10px;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .container {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .hint-area {
+        width: 90%;
+    }
+
+    .hint-area p {
+        font-size: 1em;
+    }
+
+    #guess-input {
+        width: 85%;
+    }
+
+    #submit-guess {
+        width: 80%;
+    }
+
+    #message, #message1 {
+        font-size: 1em;
+    }
+
+    #fimButton {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    ul, li {
+        font-size: medium;
+    }
+
+    #finalPoints {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+    .big-container {
+        min-width: auto;
+        width: 80%;
+        margin-inline: auto;
+    
+}
+
+    .container {
+        padding: 10px;
+    }
+
+    .hint-area p {
+        font-size: 0.9em;
+    }
+
+    #guess-input {
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+    #submit-guess {
+        width: 90%;
+    }
+
+    #message, #message1 {
+        font-size: 0.9em;
+    }
+
+    #fimButton {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    ul, li {
+        font-size: small;
+    }
+
+    #finalPoints {
+        font-size: 18px;
+    }
+    .versao{
+        display: none;
+    }
 }
