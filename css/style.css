@@ -10,8 +10,9 @@ body {
     font-family: "Poppins";
     display: flex;
     height: 100vh;
-    background: #8fa5df;
-    background-image: linear-gradient(to right, rgb(122, 122, 241), rgb(151, 185, 247));
+    background: black;
+    background-image: url(../img/background.png);
+    /* background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 0)); */
 }
 
 .big-container {
@@ -37,7 +38,15 @@ header {
     }
 
     a:hover {
-        color: rgb(65, 65, 65);
+        color: white;
+        text-decoration: underline 1.8px;
+    }
+}
+
+.versao {
+    p {
+        color: white;
+        font-size: 13px;
     }
 }
 
@@ -53,7 +62,7 @@ header {
     text-align: center;
     width: 600px;
     max-width: 600px;
-    background-color: #d7d8fa;
+    background-color: #ffffffe0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);

@@ -1,14 +1,14 @@
 const countries = [
-    ["china", "img/formatos/China.svg", "Maior exportador do mundo", "Ásia", "img/bandeiras/china.svg"],
-    ["colômbia", "img/formatos/Colômbia.svg", "Guerra contra o narcotráfico", "América do Sul", "img/bandeiras/colômbia.svg"],
-    ["vaticano", "img/formatos/Vaticano.svg", "Capela Sistina", "Europa", "img/bandeiras/vaticano.svg"],
-    ["luxemburgo", "img/formatos/Luxemburgo.svg", "País formado por Monarquia", "Europa", "img/bandeiras/luxemburgo.svg"],
-    ["hungria", "img/formatos/Hungria.svg", "Sua capital é Budapeste", "Europa", "img/bandeiras/hungria.svg"],
-    ["gana", "img/formatos/Gana.svg", "Primeiro país africano a conquistar independência", "África", "img/bandeiras/gana.svg"],
-    ["fiji", "img/formatos/Fiji.svg", "Composto por mais de 300 ilhas", "Oceania", "img/bandeiras/fiji.svg"],
-    ["guatemala", "img/formatos/Guatemala.svg", "Famoso por cultura Maia", "Ámerica Central", "img/bandeiras/guatemala.svg"],
-    ["camarões", "img/formatos/Camarões.svg", "A língua oficial é o Francês", "África", "img/bandeiras/camarões.svg"],
-    ["afeganistão", "img/formatos/Afeganistão.svg", "Tem uma alimentação baseada em grãos", "Ásia", "img/bandeiras/afeganistão.svg"]
+    ["china", "img/pais/China.png", "Maior exportador do mundo", "Ásia", "img/bandeiras/china.svg"],
+    ["colômbia", "img/pais/Colômbia.png", "Guerra contra o narcotráfico", "América do Sul", "img/bandeiras/colômbia.svg"],
+    ["espanha", "img/pais/Espanha.png", "Capela Sistina", "Europa", "img/bandeiras/vaticano.svg"],
+    ["holanda", "img/pais/Holanda.png", "País formado por Monarquia", "Europa", "img/bandeiras/luxemburgo.svg"],
+    ["hungria", "img/pais/Hungria.png", "Sua capital é Budapeste", "Europa", "img/bandeiras/hungria.svg"],
+    ["gana", "img/pais/Gana.png", "Primeiro país africano a conquistar independência", "África", "img/bandeiras/gana.svg"],
+    ["fiji", "img/pais/Fiji.png", "Composto por mais de 300 ilhas", "Oceania", "img/bandeiras/fiji.svg"],
+    ["guatemala", "img/pais/Guatemala.png", "Famoso por cultura Maia", "Ámerica Central", "img/bandeiras/guatemala.svg"],
+    ["camarões", "img/pais/Camarões.png", "A língua oficial é o Francês", "África", "img/bandeiras/camarões.svg"],
+    ["afeganistão", "img/pais/Afeganistão.png", "Tem uma alimentação baseada em grãos", "Ásia", "img/bandeiras/afeganistão.svg"]
 ];
 
 let remainingCountries = [...countries];
