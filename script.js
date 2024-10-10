@@ -1,8 +1,8 @@
 const countries = [
     ["china", "img/pais/China.png", "Maior exportador do mundo", "17,96 tri", "img/bandeiras/china.svg"],
     ["colômbia", "img/pais/Colômbia.png", "Guerra contra o narcotráfico", "343,6 bi", "img/bandeiras/colômbia.svg"],
-    ["espanha", "img/pais/Espanha.png", "País famoso pela corrida de touros", "1,41 tri", "img/bandeiras/vaticano.svg"],
-    ["holanda", "img/pais/Holanda.png", "Existem mais de 160 canais navegaveis neste país", "1 tri", "img/bandeiras/luxemburgo.svg"],
+    ["espanha", "img/pais/Espanha.png", "País famoso pela corrida de touros", "1,41 tri", "img/bandeiras/Espanha.svg"],
+    ["holanda", "img/pais/Holanda.png", "Existem mais de 160 canais navegaveis neste país", "1 tri", "img/bandeiras/Holanda.svg"],
     ["hungria", "img/pais/Hungria.png", "Sua capital é Budapeste", "177,3 bi", "img/bandeiras/hungria.svg"],
     ["gana", "img/pais/Gana.png", "Primeiro país africano a conquistar independência", "73,77 bi", "img/bandeiras/gana.svg"],
     ["fiji", "img/pais/Fiji.png", "Composto por mais de 300 ilhas", "4,98 bi", "img/bandeiras/fiji.svg"],
