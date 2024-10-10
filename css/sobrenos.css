@@ -46,3 +46,30 @@ h1 {
     margin-bottom: 0px;
     font-size: 40px;
 }
+
+@media (max-width: 1024px) {
+    .container p{
+        font-size: 80%;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .container img {
+        height: 170px;
+    } 
+}
+
+@media (max-width: 425px) {
+    .pessoa1, .pessoa2, .pessoa3 {
+        flex-direction: column-reverse;
+        gap: 2px;
+    }
+
+    .container {
+        gap: 15px;
+        width: 90%;
+        margin: auto;
+    }
+}

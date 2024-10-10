@@ -244,7 +244,17 @@ li {
     font-weight: 500;
 }
 
+@media (max-width: 1440px) {
+    .big-container {
+        min-width: auto;
+        width: 90%;
+        margin: 10px auto;
+    }
 
+    .versao p {
+        font-size: 70%;
+    }
+}
 
 @media (max-width: 1024px) {
     .big-container {
@@ -310,8 +320,8 @@ li {
     body{
         background-image: url(../img/bg/bg-tablet.png);
     }
-    .versao {
-        display: none;
+    .versao p{
+        font-size: 60%;
     }
     #guess-input {
         width: 70%;
@@ -468,9 +478,10 @@ li {
     }
     .modal-content{
         width: 70%;
+        height: 75%;
     }
     .modal-content h2, p, li{
-        font-size: 90%;
+        font-size: 85%;
     }
     #Rl{
         margin-top: 0px;
@@ -479,6 +490,86 @@ li {
         background-image: url(../img/bg/bg-celular.png);
     }
 }
+
+@media (max-width: 420px) {
+    header {
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .big-container {
+        min-width: auto;
+        width: 80%;
+        margin-inline: auto;
+
+    }
+    .small-container p{
+        font-size: 12px;
+    }
+
+    .container {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .hint-area p {
+        font-size: 0.9em;
+    }
+
+    #guess-input {
+        width: 70%;
+        height: 50%;
+        font-size: 12px;
+    }
+
+    #submit-guess {
+        width: 90%;
+    }
+
+    #message,
+    #message1 {
+        font-size: 0.9em;
+    }
+
+    #fimButton {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    ul,
+    li {
+        font-size: small;
+    }
+
+    #finalPoints {
+        font-size: 18px;
+    }
+
+    .versao {
+        display: none;
+    }
+    .info{
+        gap: 2px;
+        font-size: 12px;
+    }
+    .modal-content{
+        width: 80%;
+        height: 75%;
+    }
+    .modal-content h2, p, li{
+        font-size: 85%;
+    }
+    #Rl{
+        margin-top: 0px;
+    }
+    body {
+        background-image: url(../img/bg/bg-celular.png);
+    }
+}
+
 @media (max-width: 320px){
     header {
         margin-bottom: 15px;
@@ -544,10 +635,10 @@ li {
         font-size: 12px;
     }
     .modal-content{
-        width: 70%;
+        width: 75%;
     }
     .modal-content h2, p, li{
-        font-size: 80%;
+        font-size: 75%;
     }
     #Rl{
         margin-top: 0px;
