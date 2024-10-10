@@ -1,14 +1,14 @@
 const countries = [
-    ["china", "img/pais/China.png", "Maior exportador do mundo", "Ásia", "img/bandeiras/china.svg"],
-    ["colômbia", "img/pais/Colômbia.png", "Guerra contra o narcotráfico", "América do Sul", "img/bandeiras/colômbia.svg"],
-    ["espanha", "img/pais/Espanha.png", "Capela Sistina", "Europa", "img/bandeiras/vaticano.svg"],
-    ["holanda", "img/pais/Holanda.png", "País formado por Monarquia", "Europa", "img/bandeiras/luxemburgo.svg"],
-    ["hungria", "img/pais/Hungria.png", "Sua capital é Budapeste", "Europa", "img/bandeiras/hungria.svg"],
-    ["gana", "img/pais/Gana.png", "Primeiro país africano a conquistar independência", "África", "img/bandeiras/gana.svg"],
-    ["fiji", "img/pais/Fiji.png", "Composto por mais de 300 ilhas", "Oceania", "img/bandeiras/fiji.svg"],
-    ["guatemala", "img/pais/Guatemala.png", "Famoso por cultura Maia", "Ámerica Central", "img/bandeiras/guatemala.svg"],
-    ["camarões", "img/pais/Camarões.png", "A língua oficial é o Francês", "África", "img/bandeiras/camarões.svg"],
-    ["afeganistão", "img/pais/Afeganistão.png", "Tem uma alimentação baseada em grãos", "Ásia", "img/bandeiras/afeganistão.svg"]
+    ["china", "img/pais/China.png", "Maior exportador do mundo", "17,96 tri", "img/bandeiras/china.svg"],
+    ["colômbia", "img/pais/Colômbia.png", "Guerra contra o narcotráfico", "343,6 bi", "img/bandeiras/colômbia.svg"],
+    ["espanha", "img/pais/Espanha.png", "País famoso pela corrida de touros", "1,41 tri", "img/bandeiras/vaticano.svg"],
+    ["holanda", "img/pais/Holanda.png", "Existem mais de 160 canais navegaveis neste país", "1 tri", "img/bandeiras/luxemburgo.svg"],
+    ["hungria", "img/pais/Hungria.png", "Sua capital é Budapeste", "177,3 bi", "img/bandeiras/hungria.svg"],
+    ["gana", "img/pais/Gana.png", "Primeiro país africano a conquistar independência", "73,77 bi", "img/bandeiras/gana.svg"],
+    ["fiji", "img/pais/Fiji.png", "Composto por mais de 300 ilhas", "4,98 bi", "img/bandeiras/fiji.svg"],
+    ["guatemala", "img/pais/Guatemala.png", "Famoso por cultura Maia", "95 bi", "img/bandeiras/guatemala.svg"],
+    ["camarões", "img/pais/Camarões.png", "A língua oficial é o Francês", "43,64 bi", "img/bandeiras/camarões.svg"],
+    ["afeganistão", "img/pais/Afeganistão.png", "Tem uma alimentação baseada em grãos", "14,27 bi", "img/bandeiras/afeganistão.svg"]
 ];
 
 let remainingCountries = [...countries];
@@ -147,7 +147,7 @@ function revealHint() {
         hint1.textContent = `Curiosidade: ${currentCountry[2]}`;
         hint1.classList.remove('hidden');
     } else if (attempts === 2) {
-        hint2.textContent = `Continente: ${currentCountry[3]}`;
+        hint2.textContent = `PIB: ${currentCountry[3]}`;
         hint2.classList.remove('hidden');
     } else if (attempts === 3) {
         flag.src = currentCountry[4];
